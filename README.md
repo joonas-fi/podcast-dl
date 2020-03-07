@@ -1,5 +1,5 @@
 ![Build status](https://github.com/joonas-fi/podcast-dl/workflows/Build/badge.svg)
-![Download](https://img.shields.io/github/downloads/joonas-fi/podcast-dl/total.svg?style=for-the-badge)
+[![Download](https://img.shields.io/github/downloads/joonas-fi/podcast-dl/total.svg?style=for-the-badge)](https://github.com/joonas-fi/podcast-dl/releases)
 
 Utility for hoarding podcasts. Downloads the mp3s and also stores each episode metadata in JSON.
 
