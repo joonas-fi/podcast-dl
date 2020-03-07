@@ -17,7 +17,7 @@ $ podcast-dl rss changelog https://changelog.com/podcast/feed
 Adding `--dl` will actually do what the dry run reported it would do:
 
 ```console
-$ podcast-dl rss changelog --dl https://changelog.com/podcast/feed
+$ podcast-dl rss --dl changelog https://changelog.com/podcast/feed
 (it now downloads them)
 ```
 
@@ -26,8 +26,8 @@ Downloaded directory structure
 ------------------------------
 
 ```console
-$ tree on-the-metal
-on-the-metal
+$ tree on-the-metal/
+on-the-metal/
 ├── 2019-11-15 01561a241bf5b6ba
 │   ├── 8396a7b2.mp3
 │   └── meta.json
@@ -103,6 +103,6 @@ Then I can run it as:
 $ ./changelog.sh
 (dry run results)
 
-$ ./changelog.sh --do
+$ ./changelog.sh --dl
 (download progress)
 ```
